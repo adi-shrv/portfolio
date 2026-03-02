@@ -6,8 +6,8 @@
 
 body {
     font-family: Helvetica, Arial, sans-serif;
-    background-color: #f7f7f7;
-    color: #111;
+    background-color: #1e1e1e;
+    color: #f2f2f2;
     line-height: 1.6;
 }
 
@@ -26,25 +26,25 @@ header {
 nav a {
     margin-left: 30px;
     text-decoration: none;
-    color: #111;
+    color: #f2f2f2;
     font-size: 14px;
 }
 
 .hero {
-    height: 60vh;
+    height: 35vh;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
 .hero h1 {
-    font-size: 24px;
+    font-size: 22px;
     font-weight: 400;
-    letter-spacing: 2px;
+    letter-spacing: 3px;
 }
 
 .work {
-    padding: 60px;
+    padding: 40px 60px;
 }
 
 .grid {
@@ -54,11 +54,15 @@ nav a {
 }
 
 .placeholder {
-    background-color: #ddd;
+    background-color: #333;
     height: 350px;
 }
 
 .about, .contact {
     padding: 60px;
     max-width: 600px;
+}
+
+.about p {
+    line-height: 1.8;
 }
